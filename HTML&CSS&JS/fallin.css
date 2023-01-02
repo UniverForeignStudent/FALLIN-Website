@@ -1,0 +1,9 @@
+/* Cascading Style Sheet 즉 조상,부모 태그의 css를 덮어쓴다. */
+/* 선택자(selector) */
+div#header-center{
+    margin: 0 auto;
+    width: 1080px;  
+}
+div#header-center h1{
+    width:280px;
+}
