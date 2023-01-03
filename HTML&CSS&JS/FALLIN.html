@@ -17,25 +17,11 @@
             </div>
         </header>
         <main>
-            
-            <fieldset>
-                <legend>search</legend>
-                <input />   <!-- 글을 쓸 수 있다. textarea는 긴 글을 쓸 때 -->
-                <button>search</button>
-                <!-- input의 type에는 checkbox와 radio가 있다. checkbox는 다중 선택이 가능하지만 radio는 이름을 같이하면 단일택일만 가능한 기능 -->
-            </fieldset>
-            <ul> <!-- unordered list 정렬되지 않은 리스트 ol은 정렬된 리스트-->
-                <li>mylog</li><!-- list item -->
-                <li>profile</li>
-                <li>setting</li>
-                <li>likes</li>
-                <li>video</li>
-            </ul>
-            <h2>LOGIN</h2>
             <h3>Community</h3>
             <h3>Chat</h3>
             <h3>Map</h3>
-            <h3>Event</h3><ul> 
+            <h3>Event</h3>
+            <ul> 
                 <li>북경 맛집 방문 이벤트!</li> 
                 <li>투표 기능 출시!</li>
                 <li>나만의 블로그로 일상을 공유하세요~</li>
@@ -43,6 +29,28 @@
             </ul>
             <h3>Advertisement</h3>
         </main>
+        <nav>
+            <div id="fixed">
+                <div id="header-search">
+                    <h2 class="blind">검색</h2>
+                        <fieldset>
+                            <legend class="blind">검색</legend>
+                            <input />   <!-- 글을 쓸 수 있다. textarea는 긴 글을 쓸 때 -->
+                            <button><span class="blind"> 검색</span></button>
+                            <!-- input의 type에는 checkbox와 radio가 있다. checkbox는 다중 선택이 가능하지만 radio는 이름을 같이하면 단일택일만 가능한 기능 -->
+                        </fieldset>
+                </div>
+                <h2>LOGIN</h2>
+                <div>
+                    <ul> <!-- unordered list 정렬되지 않은 리스트 ol은 정렬된 리스트-->
+                        <li>mylog</li><!-- list item -->
+                        <li>profile</li>
+                        <li>setting</li>
+                        <li>likes</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <footer>
             <h4>FALLIN</h4>
             <h4>Admin</h4>

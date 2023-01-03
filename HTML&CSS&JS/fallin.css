@@ -1,9 +1,76 @@
 /* Cascading Style Sheet 즉 조상,부모 태그의 css를 덮어쓴다. */
 /* 선택자(selector) */
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin:0;
+    padding: 0;
+}
+.blind{
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+} /*클라스는 .으로 시작*/
+ 
 div#header-center{
     margin: 0 auto;
-    width: 1080px;  
+    width: 1450px;  
 }
 div#header-center h1{
     width:280px;
+    display:inline-block;
+}
+div#header-search fieldset{
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px; 
+    padding-bottom: 5px;
+    width: 50px;
+    height: 35px;
+    display:inline-block;
+    border: 1px solid #a09c9c;
+    vertical-align: middle;
+    position: relative;
+    /* postion이 static일시 계속 부모의 포지션으로 올라간다. 결국 html까지 올라감, 포지션이 static만 아니면 된다.*/
+}
+div#header-search fieldset input{ 
+    border:none;
+    padding: 0;
+    outline:none;
+    vertical-align: top;
+    width: 200px;
+    height: 23px;
+}
+div#header-search fieldset button{
+    width:35px;
+    height: 35px;
+    border: none;
+    padding: 0;
+    background: #a09c9c;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+#fixed{
+    position: fixed;
+    top: 130px;
+    right:800px;
+    display: inline-block;
+    width:10px;
+    height: 100px;
+    border: 1px solider black;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
 }
