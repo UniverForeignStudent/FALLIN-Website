@@ -5,16 +5,19 @@
         <title>FALLIN</title>
         <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
         <link rel="stylesheet" href="./fallin.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
-    </head>
+        <link rel="stylesheet" href="./header.css">
+        <link rel="stylesheet" href="./footer.css">
+        <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" href="./nav.css">
+        <link rel="stylesheet" href="./content.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+       </head>
     <body>
         <header>
             <div id="header-center"> <!-- 가운데 정렬용 div -->
             <!-- 속성명: 속성값; 속성명2: 속성값2; -->
                 <h1>   
-                    <a href="">FALLIN</a>
+                    <a href="">FALLIN </a>
                     <!-- 주석comment 사용방법-->
                 </h1>
             </div>
@@ -22,28 +25,6 @@
         <div id="main-center">
             <main>
                 <div>
-                    <div id="service-list">
-                        <h3>Community</h3>
-                        <h3>Chat</h3>
-                        <h3>Map</h3>
-                        <h3>Event</h3>
-                        <ul> 
-                            <li>북경北京 맛집 방문 이벤트!</li> 
-                            <li>투표 기능 출시!</li>
-                            <li>나만의 블로그로 일상을 공유하세요~</li>
-                            <li>좋아요 순위별로 선물 지급!</li>
-                        </ul>
-                        <h3>Advertisement</h3>
-                    </div>
-                </div>
-            </main>
-            <content>
-                <div id="content-box">
-                    <h3>This block is empty.</h3>
-                </div>
-            </content>
-            <nav>     
-                <div id="fixed">
                     <div id="header-search">
                         <h2 class="blind">검색</h2>
                         <fieldset>
@@ -53,58 +34,74 @@
                             <!-- input의 type에는 checkbox와 radio가 있다. checkbox는 다중 선택이 가능하지만 radio는 이름을 같이하면 단일택일만 가능한 기능 -->
                         </fieldset>
                     </div>
-                    <div id="nav-list">
-                        <h2>LOGIN</h2>
-                        <div id="login-box">로그인</div>
-                        <div>
-                            <ul> <!-- unordered list 정렬되지 않은 리스트 ol은 정렬된 리스트-->
-                                <li>mylog</li><!-- list item -->
-                                <li>profile</li>
-                                <li>setting</li>
-                                <li>likes</li>
-                            </ul>
+                    <div id="service-list">
+                        <h3><a href="">커뮤니티</a></h3>
+                        <h3><a href="">지도</a></h3>
+                        <h3><a href="">이벤트</a></h3>
+                        <ul> 
+                            <li>북경北京 맛집 방문 이벤트!</li> 
+                            <li>투표 기능 출시!</li>
+                            <li>나만의 블로그로 일상을 공유하세요~</li>
+                            <li>좋아요 순위별로 선물 지급!</li>
+                        </ul>
+                        <div id="header-notice">
+                            <div id="notice-box">
+                                <h3 class ="header-title">
+                                    <a href="">공지사항</a>
+                                </h3>
+                                <a href="" class="notice-msg">
+                                   포린 커뮤니티 출시임박! 
+                                </a>
+                            </div>
+                        </div>
+                        <div id="bar">
+                            <div id="login-list">
+                                <h5>로그인</h5>
+                                <h5>회원가입</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </main>
+            <content>
+                <div id="content-box">
+                    <h3>This block is empty.</h3>
+                </div>
+            </content>
+            <nav>    
+                <h3><a href="" id="display-chat">Chat</a></h3>
+                <h3><a href="" id="display-ad">AD</a></h3>
             </nav>
         </div>
         <footer>
             <div id="footer-center">
-                <div id="footer-list">
-                    <h4>FALLIN</h4>
-                    <h4>Admin</h4>
-                    <h4>Service</h4>
-                    <h4>이용약관</h4>
-                </div>
-                <div id="footer-content">
-                    <div>
-                        <ul>
-                            <li>유학생들만의 소통 창구를 만들어 외국에서의 효율적이고, 편리한 생활을 즐길 수 있게 만들 것 입니다. </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>UniverForeignStudent</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>Community | </li>
-                            <li>Chat | </li>
-                            <li>Map | </li>
-                            <li>Event | </li>
-                            <li>Advertisement</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>위치기반서비스 이용약관 | </li>
-                            <li>개인정보처리방침 | </li>
-                            <li>청소년보호정책 | </li>
-                            <li>제휴/프로모션문의 | </li>
-                            <li>이메일주소무단수집거부 | </li>
-                            <li>파트너센터</li>
-                        </ul>
+                <div class="footer-under">
+                    <div class="admin-box-wrap">
+                        <div class="admin-box">
+                            <h3 class="admin-title">Fallin</h3>
+                            <a href="" class="link-admin">유학생들만의 소통 창구를 만들어 외국에서의 효율적이고, 편리한 생활을 즐길 수 있게 만들 것 입니다. </a>
+                        </div>
+                        <div class="admin-box">
+                            <h3 class="admin-title">Admin</h3>
+                            <a href="" class="link-admin">@UniverForeignStudent</a>
+                        </div>
+                        <div class="admin-box">
+                            <h3 class="admin-title">Service</h3>
+                            <a href="" class="link-admin">Community</a>
+                            <a href="" class="link-admin">Chat</a>
+                            <a href="" class="link-admin">Map</a>
+                            <a href="" class="link-admin">Event</a>
+                            <a href="" class="link-admin">Adevertisement</a>
+                        </div>
+                        <div class="admin-box">
+                            <h3 class="admin-title">이용약관</h3>
+                            <a href="" class="link-admin">위치기반서비스 이용약관</a>
+                            <a href="" class="link-admin">개인정보처리방침</a>
+                            <a href="" class="link-admin">청소년보호정책</a>
+                            <a href="" class="link-admin">제휴/프로모션문의</a>
+                            <a href="" class="link-admin">이메일주소무단수집거부</a>
+                            <a href="" class="link-admin">파트너센터</a>
+                        </div>
                     </div>
                 </div>
             </div>

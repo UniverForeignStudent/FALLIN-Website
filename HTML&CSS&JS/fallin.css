@@ -3,11 +3,19 @@
 *{
     box-sizing: border-box;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+div {
+    display: block;
+}
 html, body{
     background-color: aliceblue;
     margin:0;
     padding: 0;
-    font-family: 'ZCOOL XiaoWei',"Courier New",'Nanum Pen Script', cursive, sans-serif;
+    font-size: 20px;
+    font-family: 'ZCOOL XiaoWei',"Courier New",'Do Hyeon', cursive, sans-serif;
 }
 .blind{
     position: absolute;
@@ -19,128 +27,5 @@ html, body{
 } /*클라스는 .으로 시작*/
 #fixed{
     position: fixed;
-    display: inline-block;
-}
-header{
-    height:150px;
-}
-div#header-center{
-    margin: 0 auto;
-    width: 1450px;  
-    height: 150px;
-}
-div#header-center h1{
-    width:280px;
-    display:inline-block;
-}
-div#header-search fieldset{
-    margin-left: 2px;
-    padding-left: 0px;
-    padding-top: 5px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    background-color: white;
-    width: 60px;
-    height: 35px;
-    display: inline-block;
-    border: 1px solid #a09c9c;
-    vertical-align: middle;
-    position: relative;
-    /* postion이 static일시 계속 부모의 포지션으로 올라간다. 결국 html까지 올라감, 포지션이 static만 아니면 된다.*/
-}
-div#header-search fieldset input{ 
-    border:none;
-    padding: 0;
-    outline:none;
-    vertical-align: top;
-    width: 235px;
-    height: 23px;
-}
-div#header-search fieldset button{
-    width:35px;
-    height: 35px;
-    border: none;
-    padding: 0;
-    background: #a09c9c;
-    position: absolute;
-    right: -1px;
-    top: -1px;
-}
-#main-center{
-    margin: 0 auto;
-    width: 1450px;  
-    height: 1050px;
-}
-main{
-    display: inline-block;
-}
-#service-list{
-    display: inline-block;
-    width: 240px;
-    height: 1050px;
-}
-content{
-    display: inline-block;
-    vertical-align: top;
-    width: 950px;
-    height:1050px;
-}
-#content-box{
-    display: inline-block;
-    width:920px;
-    height:1020px;
-    border: 1px solid black;
-}
-nav{
-    display: inline-block;
-    vertical-align: top;
-    width: 240px;
-    height: 400px;
-}
-#nav-list{
-    vertical-align: auto;
-    display: inline-block;
-    width: 237px;
-    height: 500px;
-}
-#login-box{
-    display: inline-block;
-    width:240px;
-    height:150px;
-    border: 1px solid black;
-}
-#nav-box{
-
-}
-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-nav li{
-    display: inline-block;
-}
-#footer-center{
-    vertical-align:baseline;
-    margin: 0 auto;
-    width: 1450px;  
-    height: 150px;
-}
-#footer-list{
-    vertical-align: middle;
-    display: inline-block;
-    width:200px;
-    height:150px;
-}
-#footer-content{
-    vertical-align: middle;
-    display: inline-block;
-    width:1200px;
-    height:150px;
-}
-footer ul{
-    list-style: none;
-}
-footer li{
     display: inline-block;
 }
