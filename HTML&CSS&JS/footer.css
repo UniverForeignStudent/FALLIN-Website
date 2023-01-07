@@ -1,13 +1,13 @@
 footer{
     border-top: 3px dashed rgb(223, 235, 247);
-    font-size: 15px;
+    font-size: 11px;
     height: 200px;
 }
 
 #footer-center{
     vertical-align:baseline;
     margin: 0 auto;
-    width: 830px;  
+    width: 450px;  
     height: 200px;
 }
 #footer-title {

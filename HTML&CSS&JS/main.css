@@ -5,7 +5,7 @@ main{
 #main-center{
     margin: 0 auto;
     width: 1450px;  
-    height: 1050px;
+    height: 1300px;
 }
 div#header-search fieldset{
     margin-left: 2px;
@@ -14,11 +14,11 @@ div#header-search fieldset{
     padding-right: 0px;
     padding-bottom: 0px;
     background-color: white;
-    width: 60px;
     height: 35px;
     display: inline-block;
     border: 1px solid black;
     vertical-align: middle;
+    border-radius: 5px;
     position: relative;
     /* postion이 static일시 계속 부모의 포지션으로 올라간다. 결국 html까지 올라감, 포지션이 static만 아니면 된다.*/
 }
@@ -29,17 +29,19 @@ div#header-search fieldset input{
     vertical-align: top;
     width: 235px;
     height: 23px;
+    cursor: pointer;
 }
 div#header-search fieldset button{
-    width:35px;
-    height: 35px;
+    width:33px;
+    height: 33px;
     border: 0;
     padding: 1px;
-    background: rgb(223, 235, 247);
-    border: 1px solid black;
+    background-color:transparent;
     position: absolute;
     right: -1px;
     top: -1px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 #service-list{
     display: inline-block;
