@@ -2,10 +2,10 @@ content{
     display: inline-block;
     vertical-align: top;
     width: 950px;
-    height:1300px;
+    height:10px;
 }
 #content-box{
-    display: inline-block;
+    display: flex;
     margin: 10px 65px;
     width:820px;
     height:1030px;
