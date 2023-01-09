@@ -1,0 +1,24 @@
+nav{
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    height: 1800px;
+}
+#display-ad{
+    display: inline-block;
+    width:230px;
+    height:400px;
+}
+#display-chat{
+    display: inline-block;
+    width:230px;
+    height:700px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+}
