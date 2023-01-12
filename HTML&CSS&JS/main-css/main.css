@@ -89,3 +89,6 @@ div#header-search fieldset button{
 #service-list li{
     display: inline-block;
 }
+main li{
+    font-size: 0.8rem;
+}

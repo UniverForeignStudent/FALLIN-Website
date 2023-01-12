@@ -53,3 +53,45 @@ list{
 .botton-wrap a.off{
     background: white;
 }
+
+.board-list{
+    width: 100%;
+    border-top: 3px dashed rgb(223, 235, 247); 
+}
+.board-list > div {
+    border-bottom: 1px solid #ddd;
+    font-size:0; /*inline-block에는 뛰어쓰기라는 여백을 생각해야해서 0 하지만 자식들도 영향을 받기때문에 폰트사이즈로 다시한번 정리*/
+}
+
+.board-list > div.top{
+    border-bottom:3px dashed rgb(223, 235, 247);
+}
+
+.board-list > div > div{
+    display: inline-block;
+    padding: 15px 0;
+    text-align:center;
+    font-size: 1.1rem;
+}
+.board-list > div.top > div{
+    font-weight: 200;
+}
+.board-list .num{   
+    width:10%;
+}
+.board-list .title{
+    width:60%;
+    text-align:left;
+}
+.board-list .top .title{
+    text-align: center;
+}
+.board-list .writer{
+    width:10%;
+}
+.board-list .date{
+    width:10%;
+}
+.board-list .count{
+    width:10%;
+}
