@@ -1,0 +1,46 @@
+footer{
+    border-top: 3px dashed rgb(223, 235, 247);
+    font-size: 11px;
+    height: 100px;
+}
+
+#footer-center{
+    vertical-align:baseline;
+    margin: 0 auto;
+    width: 450px;  
+    height: 100px;
+}
+#footer-title {
+    float: left;
+    width:48px;
+    height:16px;
+    margin-right: 13px;
+    color: #202020;
+
+}
+#footer-under {
+    border-bottom: 1px solid #e4e8eb;
+    height: 200px;
+}
+#admin-box-wrap{
+    float: left;
+    width: 780px;
+    padding: 20px 0;
+}
+#admin-box{
+    overflow: hidden;
+}
+#admin-title {
+    float: left;
+    width: 87px;
+}
+#link_admin {
+    float: left;
+    color: #777;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    display: inline-block;
+}

@@ -1,0 +1,94 @@
+main{
+    display: inline-block;
+    margin-top: 30px;
+}
+#main-center{
+    margin: 0 auto;
+    width: 1450px;  
+    height: 1800px;
+}
+div#header-search fieldset{
+    margin-left: 2px;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    height: 35px;
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: middle;
+    border-radius: 5px;
+    position: relative;
+    /* postion이 static일시 계속 부모의 포지션으로 올라간다. 결국 html까지 올라감, 포지션이 static만 아니면 된다.*/
+}
+div#header-search fieldset input{ 
+    border:none;
+    padding: 5px;
+    outline:none;
+    vertical-align: top;
+    width: 235px;
+    height: 23px;
+    cursor: pointer;
+}
+div#header-search fieldset button{
+    width:33px;
+    height: 33px;
+    border: 0;
+    padding: 1px;
+    background-color:transparent;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#service-list{
+    display: inline-block;
+    width: 240px;
+    height: 1800px;
+}
+#header-notice {
+    overflow: hidden;
+    padding: 16px 0 15px;
+    border-top: 3px dashed rgb(223, 235, 247);
+}
+#notice-box {
+    float: left;
+    
+}
+#header-title {
+    float: left;
+    margin-right: 13px;
+    color: #202020;
+}
+
+#notice_msg {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    max-width: 600px;
+    color: #777;
+}
+#login-list{
+    vertical-align: top;
+    display: inline-block;
+}
+#login-list h5{
+    display:inline-block;
+}
+#bar{
+    border-top: 3px dashed rgb(223, 235, 247);
+}
+#service-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#service-list li{
+    display: inline-block;
+}
+main li{
+    font-size: 0.8rem;
+}

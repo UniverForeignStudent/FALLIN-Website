@@ -1,0 +1,97 @@
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.board-wrap{
+    width:820px;
+}
+list{
+    display: inline-block;
+    vertical-align: top;
+    width: 820px;
+    height:1800px;  
+    margin: 10px 65px;
+}
+
+.board-title{
+    margin-bottom: 30px;
+}
+.board-title strong{
+    font-size: 2rem;
+}
+.board-title p{
+    margin-top: 5px;
+    font-size: 1.4rem;
+}
+.botton-wrap{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}   
+.botton-wrap a{
+    display: inline-block;    
+    min-width: 85px;
+    min-height: 28px;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 1.1rem;
+}    
+.botton-wrap a:first-child{
+    margin-left: 0;
+}    
+
+.botton-wrap a.on{
+    background: black;
+    color: white;
+}
+
+.botton-wrap a.off{
+    background: white;
+}
+
+.board-list{
+    width: 100%;
+    border-top: 3px dashed rgb(223, 235, 247); 
+}
+.board-list > div {
+    border-bottom: 1px solid #ddd;
+    font-size:0; /*inline-block에는 뛰어쓰기라는 여백을 생각해야해서 0 하지만 자식들도 영향을 받기때문에 폰트사이즈로 다시한번 정리*/
+}
+
+.board-list > div.top{
+    border-bottom:3px dashed rgb(223, 235, 247);
+}
+
+.board-list > div > div{
+    display: inline-block;
+    padding: 15px 0;
+    text-align:center;
+    font-size: 1.1rem;
+}
+.board-list > div.top > div{
+    font-weight: 200;
+}
+.board-list .num{   
+    width:10%;
+}
+.board-list .title{
+    width:60%;
+    text-align:left;
+}
+.board-list .top .title{
+    text-align: center;
+}
+.board-list .writer{
+    width:10%;
+}
+.board-list .date{
+    width:10%;
+}
+.board-list .count{
+    width:10%;
+}
