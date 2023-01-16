@@ -1,0 +1,14 @@
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.board-wrap{
+    width:820px;
+}
+
+.community-list-wrap{
+    border-top: 3px dashed rgb(223, 235, 247); 
+}

@@ -45,6 +45,7 @@ div#header-search fieldset button{
 }
 #service-list{
     display: inline-block;
+    margin-top: 16px;
     width: 240px;
     height: 1800px;
 }
