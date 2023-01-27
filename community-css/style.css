@@ -10,5 +10,96 @@ a{
 }
 
 .community-list-wrap{
-    border-top: 3px dashed rgb(223, 235, 247); 
+    margin-top: 40px;
 }
+
+.community-list-wrap > div{
+    vertical-align: top;
+    text-align: center;
+}
+
+.community-title{
+    font-size: 1.3rem;
+    margin-bottom: 35px;
+
+}
+
+.community-content{
+    font-size: 1.1rem;
+}
+
+.line{
+    border-bottom: 3px dashed black;
+}
+
+#first-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+#second-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
+#third-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
+#fourth-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
+#fifth-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
+#sixth-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
+#seventh-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
+#eighth-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
+#ninth-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
+#tenth-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
+#eleventh-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
+#twelfth-community{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+}
+
